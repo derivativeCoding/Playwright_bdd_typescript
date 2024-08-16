@@ -1,0 +1,24 @@
+{
+    "searchItemtextbar":{
+        "locator":"xpath=//input[@id='twotabsearchtextbox']",
+        "description": " serach bar text field locator"
+    },
+    "ProccedToCheckOut":{
+        "locator":"//input[@name='proceedToRetailCheckout']",
+        "description":"Procced to  buy button"
+    },
+    "CartValue":{
+        "locator":"xpath=//div[@id='nav-cart-count-container']//span[@id='nav-cart-count']",
+        "description":"To fetch Cart Value"
+    },
+    "CartBtn":{
+        "locator":"//*[@id='attach-view-cart-button-form']/span/span/input",
+        "description":"Cart button link"
+    },
+    "ItemClick":{
+        "locator":"link",
+        "actOptions":{
+            "name":"Apple iPhone 13 (128GB) - Blue"
+        }
+    }
+}

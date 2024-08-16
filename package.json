@@ -1,0 +1,26 @@
+{
+  "name": "playwright_bdd_typescript",
+  "version": "1.0.0",
+  "description": "Installation :\r npm init -y => package.json created",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test & npx ts-node index.ts",
+    "test:failed": "cucumber-js -p rerun reports/@failedScenarios.txt & npx ts-node index.ts"
+
+  },
+  "keywords": [
+    "js",
+    "ts"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.45.0",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.45.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
